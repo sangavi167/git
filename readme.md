@@ -28,5 +28,14 @@ git log
 git checkout id
 git checkout main # to comeback
 
-# if you want to change the previous file
+# if you want to change the previous file and want same as current file
+
+git checkout id
+git checkout -f main
+git status #to check on which branch
+
+# To connect local repo to global repo
+
+git remote add origin https://github.com/sangavi167/git.git
+git push -u origin main
 
